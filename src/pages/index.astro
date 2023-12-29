@@ -1,0 +1,62 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main class='bg-[#294154] glass h-screen w-3/4 mx-auto flex my-5 rounded-2xl shadow-2xl'>
+		<section class="w-1/3 h-screen  flex flex-col items-center py-5 font-bold text-white rounded-lg">
+			<h1 class="text-5xl">Gabriel Delgado</h1>
+			<h3 class="font-thin text-2xl">Junior Full Stack Developer</h3>
+			<h4 class="font-semibold">Passionate developer in search of new job opportunities</h4>
+
+			<ul class="mt-16 h-28 w-max">
+				<li>
+					<a class="active group flex items-center py-3" href="#about"><span class="nav-indicator mr-4 h-px w-8 bg-[#9DB2BF] transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-[#9DB2BF] group-hover:text-[#DDE6ED] group-focus-visible:text-slate-200">About</span></a>
+				</li>
+				<li>
+					<a class="group flex items-center py-3" href="#experience"><span class="nav-indicator mr-4 h-px w-8 bg-[#9DB2BF] transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span class="nav-text group-hover:text-[#DDE6ED]group-focus-visible:text-slate-200 text-xs font-bold uppercase tracking-widest text-[#9DB2BF]">Projects</span></a>
+				</li>
+				<li>
+					<a class="group flex items-center py-3" href="#projects"><span class="nav-indicator mr-4 h-px w-8 bg-[#9DB2BF] transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span class="nav-text text-xs font-bold uppercase tracking-widest text-[#9DB2BF] group-hover:text-[#DDE6ED] group-focus-visible:text-slate-200">Blogs</span></a>
+				</li>
+			</ul>
+		</section>
+		<!-- Body of the portfolio -->
+		<section class="w-2/3 h-screen flex flex-col  rounded-r-lg items-center gap-y-5">
+			<!-- About Me article -->
+			<article id="about" class="w-3/4 rounded-md h-1/5 bg-white mt-5">
+			</article>
+			<!-- Projects section -->
+			<section id="projects" class="w-2/3 h-4/5 flex flex-col gap-y-2 rounded-lg bg-slate-500 py-5">
+				<article class="w-3/4 mx-auto h-1/3 bg-slate-500 border-2 border-slate-600 justify-center rounded-lg hover:scale-105 transition flex items-center text-white">
+					<span>Dec 2020 - Nov 2021</span>
+					<div class="w-2/3 h-full flex flex-col justify-center items-center">
+						<h1 class="text-3xl font-bold">Titulo del proyecto</h1>
+						<h3 class="text-xl font-semibold">Breve descripcion del proyecto</h3>
+						<p class="text-sm font-thin">This is my personal portfolio, made with Astro and TailwindCSS</p>
+				</article>
+				<article class="w-3/4 mx-auto h-1/3 bg-slate-500 border-2 border-slate-600 justify-center rounded-lg hover:scale-105 transition flex items-center text-white">
+					<span>Dec 2020 - Nov 2021</span>
+					<div class="w-2/3 h-full flex flex-col justify-center items-center">
+						<h1 class="text-3xl font-bold">Titulo del proyecto</h1>
+						<h3 class="text-xl font-semibold">Breve descripcion del proyecto</h3>
+						<p class="text-sm font-thin">This is my personal portfolio, made with Astro and TailwindCSS</p>
+				</article>
+				<article class="w-3/4 mx-auto h-1/3 bg-slate-500 border-2 border-slate-600 justify-center rounded-lg hover:scale-105 transition flex items-center text-white">
+					<span>Dec 2020 - Nov 2021</span>
+					<div class="w-2/3 h-full flex flex-col justify-center items-center">
+						<h1 class="text-3xl font-bold">Titulo del proyecto</h1>
+						<h3 class="text-xl font-semibold">Breve descripcion del proyecto</h3>
+						<p class="text-sm font-thin">This is my personal portfolio, made with Astro and TailwindCSS</p>
+				</article>
+				<article class="w-3/4 mx-auto h-1/3 bg-slate-500 border-2 border-slate-600 justify-center rounded-lg hover:scale-105 transition flex items-center text-white">
+					<span>Dec 2020 - Nov 2021</span>
+					<div class="w-2/3 h-full flex flex-col justify-center items-center">
+						<h1 class="text-3xl font-bold">Titulo del proyecto</h1>
+						<h3 class="text-xl font-semibold">Breve descripcion del proyecto</h3>
+						<p class="text-sm font-thin">This is my personal portfolio, made with Astro and TailwindCSS</p>
+				</article>
+			</section>
+		</section>
+	</main>
+</Layout>
