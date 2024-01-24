@@ -1,0 +1,24 @@
+<article class="md:col-start-2 rounded-lg shadow-lg bg-mongoose-300 text-center h-24 md:h-32 overflow-hidden">
+  <div class="w-full h-full animate-belt relative flex justify-center items-center gap-5">
+  <img src="../../public/react.svg" class="w-12 h-12 hover:scale-125 transition">
+    <img src="../../public/js.svg" class="w-12 h-12 hover:scale-125 transition">
+    <img src="../../public/next-js.svg" class="w-12 h-12 hover:scale-125 transition">
+    <img src="../../public/Tailwind.svg" class="w-12 h-12 hover:scale-125 transition">
+
+  </div>
+</article>
+
+<style>
+  /* Your own custom stuff */
+@keyframes conveyorBelt {
+  0% {
+      transform: translateX(60%);
+  }
+  100% {
+      transform: translateX(-60%);
+  }
+}
+.animate-belt {
+  animation: conveyorBelt 6s linear infinite;
+}
+</style>
