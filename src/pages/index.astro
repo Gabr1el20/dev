@@ -3,19 +3,24 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Projects from '../components/Projects.astro';
 import Tools from '../components/Tools.astro'
+import Alquivago from '../components/Alquivago.astro';
+import Resume from '../components/Resume.astro';
+import Sakuga from '../components/Sakuga.astro';
+const frontTools = ["next-js.svg", "react.svg", "Tailwind.svg", "js.svg"]
+const backTools = ["node.svg", "docker.svg", "mongo.svg", "flask.svg"]
 ---
 
 <Layout title="Welcome to Astro.">
-	<main class="grid grid-cols-1 md:grid-cols-3 h-max md:w-5/6 w-11/12 mx-auto grid-rows-9 gap-5">
+	<main class="grid grid-cols-1 md:grid-cols-4 h-max md:w-5/6 w-11/12 mx-auto grid-rows-9 gap-5">
 		<Header></Header>
 		<Projects></Projects>
 				<!-- Estos dos componentes pueden ser modularizados -->
-				<Tools/>
-				<Tools/>
-		<aside class="hidden md:block md:col-start-3 md:row-start-3 rounded-lg shadow-md bg-mongoose-300">Resume</aside>
-		<article class="md:col-start-3 md:row-start-4 bg-vgreen-500 md:row-span-3 rounded-lg shadow-lg shadow-vgreen-500 text-center">Learning</article>
-		<aside class="hidden md:block row-span-2 rounded-lg shadow-md bg-vgreen-200 shadow-vgreen-500">6</aside>
-		<aside class="hidden md:block md:row-span-2 md:col-span-2 rounded-lg shadow-md bg-santa-fe-100">7</aside>
-		<footer class="md:col-span-3 rounded-lg shadow-lg bg-vgreen-700 text-center text-bold h-32">Footer</footer>
+				<Tools tools={frontTools} direction={["+60%", "-60%"]}/>
+				<Tools tools={backTools} direction={["-60%", "+60%"]}/>
+	<Resume/>
+		<article class="md:col-start-4 md:row-start-5 bg-vgreen-500 md:row-span-2 rounded-lg shadow-lg shadow-vgreen-500 text-center">Learning</article>
+		<Alquivago/>
+		<Sakuga/>
+		<footer class="md:col-span-4 rounded-lg shadow-lg bg-vgreen-700 text-center text-bold h-32">Footer</footer>
 	</main>
 </Layout>
