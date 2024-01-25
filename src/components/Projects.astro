@@ -1,8 +1,26 @@
 ---
 import SingleProject from "./SingleProject.astro"
+const sakugaTools = ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+const alquivagoTools = ["nodewhite.svg", "jswhite.svg", "react.svg"]
+const shellTools = ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
 ---
-<section class="col-span-1 row-span-6 flex flex-col justify-center gap-5 bg-santa-fe-400 rounded-2xl shadow-md shadow-santa-fe-700">
-  <SingleProject/>
-  <SingleProject/>
-  <SingleProject/>
+<section class="col-span-1 row-start-3 mx-auto row-span-6 flex flex-col justify-around gap-10 bg-santa-fe-400 rounded-2xl shadow-md shadow-santa-fe-700">
+  <SingleProject techs={sakugaTools} 
+  title="Random Sakuga API"
+  date="Dec 2023 - Jan 2024"
+  description="A simple API to get random sakuga clips from different anime's."
+  link="https://alquivago.vercel.app"
+   />
+  <SingleProject techs={alquivagoTools} 
+  title="Alquivago" 
+  date="Sep 2023 - Nov 2023"
+  description="A website that gathers properties across different websites and compare them in a user friendly way."
+  link="https://alquivago.vercel.app"
+  />
+  <SingleProject techs={shellTools} 
+  title="Simple Shell" 
+  date="Feb 2023 - Apr 2023"
+  description="A simple shell made in C."
+  link="https://alquivago.vercel.app"
+  />
 </section>

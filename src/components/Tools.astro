@@ -2,10 +2,10 @@
 const { tools, direction } = Astro.props;
 const [first, second] = direction;
 ---
-<article class="md:col-start-2 col-span-2 rounded-lg shadow-lg bg-mongoose-300 text-center h-24 md:h-32 overflow-hidden box-border">
+<article class="md:col-start-2 col-span-1 rounded-lg shadow-lg bg-mongoose-300 text-center h-24 md:h-32 overflow-hidden box-border">
   <div class="w-full h-full animate-belt relative flex justify-center items-center gap-5">
     {tools.map((tool: string, index: number) => {
-        return <img src={tool} class="w-12 h-12 hover:scale-125 transition">
+        return <img src={tool} class="w-16 h-16 hover:scale-125 transition">
       })}
   </div>
 </article>
