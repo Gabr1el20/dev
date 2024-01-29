@@ -2,9 +2,10 @@
 import SingleProject from "./SingleProject.astro"
 const sakugaTools = ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
 const alquivagoTools = ["nodewhite.svg", "jswhite.svg", "react.svg"]
-const shellTools = ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+const shellTools = ["c.svg"]
 ---
-<section class="col-span-1 row-start-3 mx-auto row-span-6 flex flex-col justify-around gap-10 bg-santa-fe-400 rounded-2xl shadow-md shadow-santa-fe-700">
+<section class="col-span-1 row-start-3 mx-auto row-span-6 box-border flex flex-col justify-center gap-10 bg-santa-fe-400 rounded-2xl shadow-md shadow-santa-fe-700 overflow-clip">
+  <h3 class="text-center font-bold text-mongoose-100 text-2xl">Projects</h3>
   <SingleProject techs={sakugaTools} 
   title="Random Sakuga API"
   date="Dec 2023 - Jan 2024"
@@ -21,6 +22,12 @@ const shellTools = ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
   title="Simple Shell" 
   date="Feb 2023 - Apr 2023"
   description="A simple shell made in C."
+  link="https://alquivago.vercel.app"
+  />
+  <SingleProject techs={shellTools} 
+  title="Printf Replica" 
+  date="Feb 2023 - Mar 2023"
+  description="A replica of printf function, made in C."
   link="https://alquivago.vercel.app"
   />
 </section>

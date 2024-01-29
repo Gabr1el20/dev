@@ -7,21 +7,22 @@ import Alquivago from '../components/Alquivago.astro';
 import Resume from '../components/Resume.astro';
 import Sakuga from '../components/Sakuga.astro';
 import Learning from '../components/Learning.astro';
+import Footer from '../components/Footer.astro';
 const frontTools = ["next-js.svg", "react.svg", "Tailwind.svg", "js.svg"]
-const backTools = ["node.svg", "docker.svg", "mongo.svg", "flask.svg"]
+const backTools = ["node.svg", "docker.svg", "mongo.svg", "flask.svg", "githubTool.svg"]
 ---
 
 <Layout title="Welcome to Astro.">
-	<main class="grid grid-cols-1 md:grid-cols-4 h-max md:w-5/6 w-full mx-auto grid-rows-9 gap-5">
+	<main class="grid grid-cols-1 md:grid-cols-4 h-max md:w-5/6 w-full mx-auto grid-rows-8 gap-5 mb-5">
 		<Header></Header>
 		<Projects></Projects>
 				<!-- Estos dos componentes pueden ser modularizados -->
-				<Tools tools={frontTools} direction={["+60%", "-60%"]}/>
-				<Tools tools={backTools} direction={["-60%", "+60%"]}/>
+				<Tools tools={frontTools} direction={["+100%", "-100%"]}/>
+				<Tools tools={backTools} direction={["-100%", "+100%"]}/>
 	<Resume/>
 	<Learning/>
 	<Alquivago/>
 		<Sakuga/>
-		<footer class="md:col-span-4 rounded-lg shadow-lg bg-vgreen-700 text-center text-bold h-32">Footer</footer>
 	</main>
+	<Footer/>
 </Layout>

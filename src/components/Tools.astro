@@ -5,7 +5,7 @@ const [first, second] = direction;
 <article class="md:col-start-2 col-span-1 rounded-lg shadow-lg bg-mongoose-300 text-center h-24 md:h-32 overflow-hidden box-border">
   <div class="w-full h-full animate-belt relative flex justify-center items-center gap-5">
     {tools.map((tool: string, index: number) => {
-        return <img src={tool} class="w-16 h-16 hover:scale-125 transition">
+        return <img src={tool} alt={tool} class="w-16 h-16 hover:scale-125 transition">
       })}
   </div>
 </article>
@@ -13,13 +13,13 @@ const [first, second] = direction;
   
   @keyframes conveyorBelt {
   0% {
-      transform: translateX(+60%);
+    transform: translateX(calc(var(--first) + 40px));
   }
   100% {
-      transform: translateX(-60%);
+    transform: translateX(calc(var(--second) + 40px));
   }
 }
 .animate-belt {
-  animation: conveyorBelt 6s linear infinite;
+  animation: conveyorBelt 7s linear infinite;
 }
 </style>
