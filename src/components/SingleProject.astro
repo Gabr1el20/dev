@@ -8,7 +8,7 @@ const { techs, title, date, description, link } = Astro.props
   <div class="flex justify-between">
     <aside class="flex gap-2 ml-2">
       {
-        techs.map(tech => (
+        techs.map((tech:string) => (
           <img src={tech} alt={tech} class="w-7 h-7" />
         ))
       }
