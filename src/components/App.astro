@@ -15,7 +15,7 @@ const currentLocale = Astro.currentLocale
 const data = getI18N(currentLocale)
 ---
 
-<Layout title={data.TITLE}>
+<Layout title={data.TITLE} description={data.DESCRIPTION} language={data.LANGUAGE}>
 	<main class="grid grid-cols-1 md:grid-cols-4 h-max md:w-5/6 w-full mx-auto grid-rows-8 gap-5 mb-5">
 		<Header subtitle={data.SUBTITLE}></Header>
 		<Projects projectsList={data.PROJECTS} headerProjects={data.PROJECTS_TITLE}></Projects>
