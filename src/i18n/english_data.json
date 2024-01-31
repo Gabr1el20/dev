@@ -1,0 +1,42 @@
+{
+  "TITLE": "Gabote's Portfolio",
+  "PROJECTS": [
+    {
+      "title": "Random Sakuga API",
+      "date": "Dec 2023 - Jan 2024",
+      "description": "A simple API to get random sakuga clips from different anime's.",
+      "link": "https://alquivago.vercel.app",
+      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+    },
+    {
+      "title": "Alquivago",
+      "date": "Sep 2023 - Nov 2023",
+      "description": "A website that gathers properties across different websites and compare them in a user friendly way.",
+      "link": "https://alquivago.vercel.app",
+      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+    },
+    {
+      "title": "Simple Shell",
+      "date": "Feb 2023 - Apr 2023",
+      "description": "A simple shell made in C.",
+      "link": "https://alquivago.vercel.app",
+      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+    },
+    {
+      "title": "Printf Replica",
+      "date": "Feb 2023 - Mar 2023",
+      "description": "A replica of printf function, made in C.",
+      "link": "https://alquivago.vercel.app",
+      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+    }
+  ],
+  "LEARNING": "Currently learning",
+  "SAKUGA": "Go check a random animation cut!",
+  "ALQUIVAGO": "Try",
+  "SUBTITLE": "Software Engineer",
+  "PROJECTS_TITLE": "Projects",
+  "RESUME" : {
+    "RESUME_TITLE": "Check my resume!",
+    "RESUME_LINK": "gabriel-delgado-resume.pdf"
+  }
+}

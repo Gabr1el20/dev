@@ -1,28 +1,8 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
-import Projects from '../components/Projects.astro';
-import Tools from '../components/Tools.astro'
-import Alquivago from '../components/Alquivago.astro';
-import Resume from '../components/Resume.astro';
-import Sakuga from '../components/Sakuga.astro';
-import Learning from '../components/Learning.astro';
-import Footer from '../components/Footer.astro';
-const frontTools = ["next-js.svg", "react.svg", "Tailwind.svg", "js.svg"]
-const backTools = ["node.svg", "docker.svg", "mongo.svg", "flask.svg", "githubTool.svg"]
+import App from "../components/App.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Gabote's Portfolio">
-	<main class="grid grid-cols-1 md:grid-cols-4 h-max md:w-5/6 w-full mx-auto grid-rows-8 gap-5 mb-5">
-		<Header></Header>
-		<Projects></Projects>
-				<!-- Estos dos componentes pueden ser modularizados -->
-				<Tools tools={frontTools} direction={["+100%", "-100%"]}/>
-				<Tools tools={backTools} direction={["-100%", "+100%"]}/>
-	<Resume/>
-	<Learning/>
-	<Alquivago/>
-		<Sakuga/>
-	</main>
-	<Footer/>
+<Layout title="Gabote's portfolio">
+	<App/>
 </Layout>

@@ -1,33 +1,45 @@
 ---
 import SingleProject from "./SingleProject.astro"
-const sakugaTools = ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
-const alquivagoTools = ["nodewhite.svg", "jswhite.svg", "react.svg"]
-const shellTools = ["c.svg"]
+interface Props {
+  projectsList: {
+        title: string;
+        date: string;
+        description: string;
+        link: string;
+        tools: string[];
+  }[],
+  headerProjects: string
+}
+const { projectsList, headerProjects } = Astro.props
 ---
 <section class="col-span-1 row-start-3 mx-auto row-span-6 box-border flex flex-col justify-center gap-10 bg-santa-fe-400 rounded-2xl shadow-md shadow-santa-fe-700 overflow-clip">
-  <h3 class="text-center font-bold text-mongoose-100 text-2xl">Projects</h3>
-  <SingleProject techs={sakugaTools} 
-  title="Random Sakuga API"
-  date="Dec 2023 - Jan 2024"
-  description="A simple API to get random sakuga clips from different anime's."
+  <h3 class="text-center font-bold text-mongoose-100 text-2xl">{headerProjects}</h3>
+  <SingleProject 
+  title={projectsList[0].title}
+  date={projectsList[0].date}
+  description={projectsList[0].description}
   link="https://alquivago.vercel.app"
+  tools={projectsList[0].tools}
    />
-  <SingleProject techs={alquivagoTools} 
-  title="Alquivago" 
-  date="Sep 2023 - Nov 2023"
-  description="A website that gathers properties across different websites and compare them in a user friendly way."
-  link="https://alquivago.vercel.app"
-  />
-  <SingleProject techs={shellTools} 
-  title="Simple Shell" 
-  date="Feb 2023 - Apr 2023"
-  description="A simple shell made in C."
-  link="https://alquivago.vercel.app"
-  />
-  <SingleProject techs={shellTools} 
-  title="Printf Replica" 
-  date="Feb 2023 - Mar 2023"
-  description="A replica of printf function, made in C."
-  link="https://alquivago.vercel.app"
-  />
+   <SingleProject 
+   title={projectsList[1].title}
+   date={projectsList[1].date}
+   description={projectsList[1].description}
+   link="https://alquivago.vercel.app"
+   tools={projectsList[1].tools}
+    />
+    <SingleProject 
+    title={projectsList[2].title}
+    date={projectsList[2].date}
+    description={projectsList[2].description}
+    link="https://alquivago.vercel.app"
+    tools={projectsList[2].tools}
+     />
+     <SingleProject 
+     title={projectsList[3].title}
+     date={projectsList[3].date}
+     description={projectsList[3].description}
+     link="https://alquivago.vercel.app"
+     tools={projectsList[3].tools}
+      />
 </section>

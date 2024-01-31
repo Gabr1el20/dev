@@ -1,0 +1,42 @@
+{
+  "TITLE": "Portafolio de Gabote",
+  "PROJECTS": [
+    {
+      "title": "Api de Sakuga Aleatorios",
+      "date": "Diciembre 2023 - Enero 2024",
+      "description": "Un endpoint simple que devuelve cortes de animacion aleatorios.",
+      "link": "https://alquivago.vercel.app",
+      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+    },
+    {
+      "title": "Alquivago",
+      "date": "Septiembre 2023 - Noviembre 2023",
+      "description": "Un sitio web que recolecta propiedades de distintas fuentes, para compararlas y presentarlas de una manera mas agradable para el usuario",
+      "link": "https://alquivago.vercel.app",
+      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+    },
+    {
+      "title": "Simple Shell",
+      "date": "Febrero 2023 - Abril 2023",
+      "description": "Una simple Shell hecha en C.",
+      "link": "https://alquivago.vercel.app",
+      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+    },
+    {
+      "title": "Printf Replica",
+      "date": "Febrero 2023 - Marzo 2023",
+      "description": "Una réplica de la funcion 'printf', hecha en C.",
+      "link": "https://alquivago.vercel.app",
+      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+    }
+  ],
+  "LEARNING": "Incursionando en:",
+  "SAKUGA": "Genera un corte Sakuga aleatorio!",
+  "ALQUIVAGO": "Prueba",
+  "SUBTITLE": "Ingeniero de software",
+  "PROJECTS_TITLE": "Proyectos",
+  "RESUME" : {
+    "RESUME_TITLE": "Mira mi currículum!",
+    "RESUME_LINK": "GabrielDelgado-cv.pdf"
+  }
+}

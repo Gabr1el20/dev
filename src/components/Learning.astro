@@ -1,5 +1,8 @@
+---
+const { tools } = Astro.props
+---
 <article class="md:col-start-3 col-start-1 bg-vgreen-600 md:row-span-2 md:row-start-3 row-start-11 rounded-lg shadow-lg shadow-vgreen-500 text-center pt-5 flex gap-3 md:gap-16 flex-col items-center justify-start">
-  <h3 class="font-semibold text-vgreen-200 text-xl">Currently Learning</h3>
+  <h3 class="font-semibold text-vgreen-200 text-xl">{tools}</h3>
   <div class="flex justify-center items-center gap-5 flex-wrap ">
     <img src="aws.svg" alt="Amazon Web Services logo" class="w-24 h-24 hover:scale-125 transition">
     <img src="typescript.svg" alt="Typescript logo" class="w-24 h-24 hover:scale-125 transition">
