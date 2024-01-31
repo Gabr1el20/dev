@@ -1,8 +1,8 @@
 {
-  "TITLE": "Portafolio de Gabote",
+  "TITLE": "Portafolio, Gabriel",
   "PROJECTS": [
     {
-      "title": "Api de Sakuga Aleatorios",
+      "title": "Api de cortes Sakuga Aleatorios",
       "date": "Diciembre 2023 - Enero 2024",
       "description": "Un endpoint simple que devuelve cortes de animacion aleatorios.",
       "link": "https://alquivago.vercel.app",
