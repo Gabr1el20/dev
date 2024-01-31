@@ -13,21 +13,21 @@
       "date": "Septiembre 2023 - Noviembre 2023",
       "description": "Un sitio web que recolecta propiedades de distintas fuentes, para compararlas y presentarlas de una manera mas agradable para el usuario",
       "link": "https://alquivago.vercel.app",
-      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+      "tools": ["nodewhite.svg", "jswhite.svg", "Tailwind.svg", "docker.svg", "next-js.svg"]
     },
     {
       "title": "Simple Shell",
       "date": "Febrero 2023 - Abril 2023",
       "description": "Una simple Shell hecha en C.",
-      "link": "https://alquivago.vercel.app",
-      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+      "link": "",
+      "tools": ["c.svg"]
     },
     {
       "title": "Printf Replica",
       "date": "Febrero 2023 - Marzo 2023",
       "description": "Una réplica de la funcion 'printf', hecha en C.",
-      "link": "https://alquivago.vercel.app",
-      "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
+      "link": "",
+      "tools": ["c.svg"]
     }
   ],
   "LEARNING": "Incursionando en:",
