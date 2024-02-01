@@ -7,7 +7,7 @@
       "title": "Random Sakuga API",
       "date": "Dec 2023 - Jan 2024",
       "description": "A simple API to get random sakuga clips from different anime's.",
-      "link": "https://oq5npnwovb.execute-api.us-east-1.amazonaws.com/default/randomSakuga",
+      "link": "/sakuga",
       "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
     },
     {
@@ -42,7 +42,7 @@
     "RESUME_LINK": "gabriel-delgado-resume.pdf"
   },
   "SAKUGA_PAGE": {
-    "SAKUGA_TITLE": "Check a random Sakuga!",
+    "SAKUGA_TITLE": "Check a random Sakuga",
     "SAKUGA_LINK": "https://oq5npnwovb.execute-api.us-east-1.amazonaws.com/default/randomSakuga"
   }
 }

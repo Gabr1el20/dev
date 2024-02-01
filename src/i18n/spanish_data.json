@@ -43,6 +43,6 @@
   },
   "SAKUGA_PAGE": {
     "SAKUGA_TITLE": "Genera un corte Sakuga aleatorio!",
-    "SAKUGA_LINK": "https://oq5npnwovb.execute-api.us-east-1.amazonaws.com/default/randomSakuga"
+    "SAKUGA_LINK": "/sakuga"
   }
 }
