@@ -6,8 +6,8 @@ import '@fontsource/poppins';
 import  SpeedInsights  from "@vercel/speed-insights/astro"
 interface Props {
 	title: string,
-	description: string,
-	language: string
+	description?: string,
+	language?: string
 }
 const { title, description, language } = Astro.props;
 import { ViewTransitions } from 'astro:transitions';
@@ -25,7 +25,7 @@ import { ViewTransitions } from 'astro:transitions';
 		<ViewTransitions/>
 	</head>
 	<body class="bg-vgreen-400">
-		<slot />
+		<slot/>
 	</body>
 </html>
 

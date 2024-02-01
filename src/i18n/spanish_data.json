@@ -7,7 +7,7 @@
       "title": "Api de cortes Sakuga Aleatorios",
       "date": "Diciembre 2023 - Enero 2024",
       "description": "Un endpoint simple que devuelve cortes de animacion aleatorios.",
-      "link": "https://alquivago.vercel.app",
+      "link": "https://oq5npnwovb.execute-api.us-east-1.amazonaws.com/default/randomSakuga",
       "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
     },
     {
@@ -40,5 +40,9 @@
   "RESUME" : {
     "RESUME_TITLE": "Mira mi currículum!",
     "RESUME_LINK": "Gabriel-Delgado-cv.pdf"
+  },
+  "SAKUGA_PAGE": {
+    "SAKUGA_TITLE": "Genera un corte Sakuga aleatorio!",
+    "SAKUGA_LINK": "https://oq5npnwovb.execute-api.us-east-1.amazonaws.com/default/randomSakuga"
   }
 }

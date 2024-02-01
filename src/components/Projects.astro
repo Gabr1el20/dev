@@ -18,28 +18,28 @@ const { projectsList, headerProjects } = Astro.props
   title={projectsList[0].title}
   date={projectsList[0].date}
   description={projectsList[0].description}
-  link="https://alquivago.vercel.app"
+  link={projectsList[0].link}
   tools={projectsList[0].tools}
    />
    <SingleProject 
    title={projectsList[1].title}
    date={projectsList[1].date}
    description={projectsList[1].description}
-   link="https://alquivago.vercel.app"
+   link={projectsList[1].link}
    tools={projectsList[1].tools}
     />
     <SingleProject 
     title={projectsList[2].title}
     date={projectsList[2].date}
     description={projectsList[2].description}
-    link="https://alquivago.vercel.app"
+    link={projectsList[2].link}
     tools={projectsList[2].tools}
      />
      <SingleProject 
      title={projectsList[3].title}
      date={projectsList[3].date}
      description={projectsList[3].description}
-     link="https://alquivago.vercel.app"
+     link={projectsList[3].link}
      tools={projectsList[3].tools}
       />
 </section>

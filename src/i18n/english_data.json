@@ -7,7 +7,7 @@
       "title": "Random Sakuga API",
       "date": "Dec 2023 - Jan 2024",
       "description": "A simple API to get random sakuga clips from different anime's.",
-      "link": "https://alquivago.vercel.app",
+      "link": "https://oq5npnwovb.execute-api.us-east-1.amazonaws.com/default/randomSakuga",
       "tools": ["nodewhite.svg", "jswhite.svg", "awswhite.svg"]
     },
     {
@@ -21,14 +21,14 @@
       "title": "Simple Shell",
       "date": "Feb 2023 - Apr 2023",
       "description": "A simple shell made in C.",
-      "link": "https://alquivago.vercel.app",
+      "link": "",
       "tools": ["c.svg"]
     },
     {
       "title": "Printf Replica",
       "date": "Feb 2023 - Mar 2023",
       "description": "A replica of printf function, made in C.",
-      "link": "https://alquivago.vercel.app",
+      "link": "",
       "tools": ["c.svg"]
     }
   ],
@@ -40,5 +40,9 @@
   "RESUME" : {
     "RESUME_TITLE": "Check my resume!",
     "RESUME_LINK": "gabriel-delgado-resume.pdf"
+  },
+  "SAKUGA_PAGE": {
+    "SAKUGA_TITLE": "Check a random Sakuga!",
+    "SAKUGA_LINK": "https://oq5npnwovb.execute-api.us-east-1.amazonaws.com/default/randomSakuga"
   }
 }

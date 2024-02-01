@@ -1,11 +1,11 @@
 ---
 const emailLink = "https://mail.google.com/mail/u/0/?fs=1&to=delgadogab2713@gmail.com&su=SUBJECT&body=BODY&tf=cm"
-const { subtitle } = Astro.props
+const { subtitle, classes } = Astro.props
 const spanish = Astro.url.pathname === '/es'? true : false
 const english = Astro.url.pathname === '/es'? false : true
 ---
 
-<header class="md:col-span-4 border-slate-500 row-span-2 row-start-1 rounded-lg shadow-sm mt-1 shadow-vgreen-600 bg-vgreen-300 flex flex-col items-center justify-center gap-y-5">
+<header class={classes}>
   <div class="font-semibold text-xl text-vgreen-600 ">
     <a href="/es" class:list={[
       "hover:underline"

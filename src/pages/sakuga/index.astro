@@ -1,0 +1,21 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import Header from "../../components/Header.astro"
+import { getI18N } from '../../i18n/'
+const { SAKUGA_PAGE } = getI18N(Astro.currentLocale)
+import SakugaRetriever from "../../components/SakugaRetriever.jsx"
+---
+
+<Layout title={SAKUGA_PAGE.SAKUGA_TITLE} description='' language={Astro.currentLocale}>
+    <main class="h-screen w-full grid grid-cols-2 md:grid-cols-4 md:grid-rows-4 grid-rows-5 gap-y-3 place-content-center">
+        <Header classes="col-span-2 row-span-1 md:row-span-1 md:col-span-4 flex flex-col justify-center items-center shadow-xl w-11/12 mx-auto rounded-lg"></Header>
+        <SakugaRetriever client:only="react"></SakugaRetriever>
+        <footer class="rounded-md shadow-2xl col-span-2 md:col-span-4 justify-center items-center flex">
+            <a href="/" class="w-1/2 h-1/2"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-back w-full h-full hover:scale-125 transition" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 11l-4 4l4 4m-4 -4h11a4 4 0 0 0 0 -8h-1" />
+              </svg>
+            </a>
+        </footer>
+    </main>
+</Layout>

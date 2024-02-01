@@ -17,7 +17,7 @@ const data = getI18N(currentLocale)
 
 <Layout title={data.TITLE} description={data.DESCRIPTION} language={data.LANGUAGE}>
 	<main class="grid grid-cols-1 md:grid-cols-4 h-max md:w-5/6 w-full mx-auto grid-rows-8 gap-5 mb-5">
-		<Header subtitle={data.SUBTITLE}></Header>
+		<Header subtitle={data.SUBTITLE} classes="md:col-span-4 row-span-2 row-start-1 rounded-lg shadow-xl mt-1 shadow-vgreen-600 flex flex-col items-center justify-center gap-y-5"></Header>
 		<Projects projectsList={data.PROJECTS} headerProjects={data.PROJECTS_TITLE}></Projects>
 				<!-- Estos dos componentes pueden ser modularizados -->
 				<Tools tools={frontTools} direction={["+100%", "-100%"]}/>
