@@ -35,7 +35,7 @@
   "LEARNING": "Incursionando en:",
   "SAKUGA": "Genera un corte Sakuga aleatorio!",
   "ALQUIVAGO": "Prueba",
-  "SUBTITLE": "Ingeniero de software",
+  "SUBTITLE": "Desarrollador Web",
   "PROJECTS_TITLE": "Proyectos",
   "RESUME" : {
     "RESUME_TITLE": "Mira mi currículum!",
@@ -43,6 +43,6 @@
   },
   "SAKUGA_PAGE": {
     "SAKUGA_TITLE": "Genera un corte Sakuga aleatorio!",
-    "SAKUGA_LINK": "/sakuga"
+    "SAKUGA_LINK": "/sakuga/es"
   }
 }

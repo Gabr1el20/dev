@@ -35,7 +35,7 @@
   "LEARNING": "Currently learning",
   "SAKUGA": "Go check a random animation cut!",
   "ALQUIVAGO": "Try",
-  "SUBTITLE": "Software Engineer",
+  "SUBTITLE": "Web Developer",
   "PROJECTS_TITLE": "Projects",
   "RESUME" : {
     "RESUME_TITLE": "Check my resume!",
@@ -43,6 +43,6 @@
   },
   "SAKUGA_PAGE": {
     "SAKUGA_TITLE": "Check a random Sakuga",
-    "SAKUGA_LINK": "https://oq5npnwovb.execute-api.us-east-1.amazonaws.com/default/randomSakuga"
+    "SAKUGA_LINK": "/sakuga"
   }
 }
