@@ -1,19 +1,5 @@
 ---
-import Layout from '../../../layouts/Layout.astro'
-import Header from "../../../components/Header.astro"
-import { getI18N } from '../../../i18n/'
-const { SAKUGA_PAGE } = getI18N(Astro.currentLocale)
-import SakugaRetriever from "../../../components/SakugaRetriever.jsx"
-import I18Router from "../../../components/i18Router.astro"
-import SakugaFooter from "../../../components/SakugaFooter.astro"
+import SakugaApp from "../../../components/SakugaPage.astro"
 ---
 
-<Layout title={SAKUGA_PAGE.SAKUGA_TITLE} description='' language={Astro.currentLocale}>
-    <main class="h-screen w-full grid grid-cols-2 md:grid-cols-4 md:grid-rows-4 grid-rows-5 gap-y-3 place-content-center">
-        <Header url={SAKUGA_PAGE.SAKUGA_TITLE} classes="col-span-2 row-span-1 md:row-span-1 md:col-span-4 flex flex-col justify-center items-center shadow-xl w-11/12 mx-auto rounded-lg">
-            <I18Router slot='url' spanish="/sakuga/es" english="/sakuga"></I18Router>
-        </Header>
-        <SakugaRetriever client:only="react"></SakugaRetriever>
-        <SakugaFooter/>
-    </main>
-</Layout>
+<SakugaApp/>
