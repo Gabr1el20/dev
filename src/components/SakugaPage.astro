@@ -1,11 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import Header from "components/Header.astro"
+import Header from "./Header.astro"
 import { getI18N } from '../i18n/'
 const { SAKUGA_PAGE } = getI18N(Astro.currentLocale)
-import SakugaRetriever from "components/SakugaRetriever.jsx"
-import I18Router from "components/I18Router.astro"
-import SakugaFooter from "components/SakugaFooter.astro"
+import SakugaRetriever from "./SakugaRetriever.jsx"
+import I18Router from "./I18Router.astro"
+import SakugaFooter from "./SakugaFooter.astro"
 ---
 
 <Layout title={SAKUGA_PAGE.SAKUGA_TITLE} description='' language={Astro.currentLocale}>
